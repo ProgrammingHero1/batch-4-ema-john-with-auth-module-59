@@ -45,4 +45,4 @@ const clearTheCart = () => {
   localStorage.removeItem('shopping_cart');
 }
 
-export { addToDb, removeFromDb as deleteFromDb, clearTheCart, getStoredCart }
+export { addToDb, removeFromDb, clearTheCart, getStoredCart }
