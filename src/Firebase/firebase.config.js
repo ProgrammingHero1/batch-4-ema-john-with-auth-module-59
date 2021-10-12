@@ -1,11 +1,11 @@
+console.log(process.env);
 const firebaseConfig = {
-    apiKey: "AIzaSyA9QKxeRCIkJqCXnJMwzetm5Ou9NJupWv8",
-    authDomain: "ema-john-simple.firebaseapp.com",
-    databaseURL: "https://ema-john-simple.firebaseio.com",
-    projectId: "ema-john-simple",
-    storageBucket: "ema-john-simple.appspot.com",
-    messagingSenderId: "753249389312",
-    appId: "1:753249389312:web:2539987630fc0a25b201e5"
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID,
 };
 
 export default firebaseConfig;
